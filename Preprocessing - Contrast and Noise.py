@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import SaltPepperNoise as noise
 
-Samp1 = cv2.imread("Degraded Images/Sample Two Blurred.jpeg")
+Samp1 = cv2.imread("Degraded Images/Sample One Blurr.jpeg")
 Samp2 = cv2.imread("Greyscaled/SampleThree.png")
 
 Resultx = noise.add_noise(Samp1)
